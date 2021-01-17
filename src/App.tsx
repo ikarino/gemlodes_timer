@@ -21,7 +21,6 @@ const useStyles = makeStyles((theme: Theme) =>
 function min2str(minutes: number): string {
   const hour = Math.floor(minutes / 60);
   const minute = minutes % 60;
-  console.log(`min2str: ${('00' + hour).slice(-2)}:${('00' + minute).slice(-2)}`)
   return `${('00' + hour).slice(-2)}:${('00' + minute).slice(-2)}`
 }
 

@@ -12,7 +12,8 @@ const useStyles = makeStyles((theme: Theme) =>
     },
     paper: {
       textAlign: 'center',
-      color: theme.palette.text.secondary,
+      backgroundColor: 'gray',
+      color: 'white',
     },
     container: {
       display: 'flex',
@@ -22,6 +23,7 @@ const useStyles = makeStyles((theme: Theme) =>
       marginLeft: theme.spacing(1),
       marginRight: theme.spacing(1),
       width: 200,
+      color: 'red'
     },
   }),
 );
@@ -68,7 +70,7 @@ const Wave: React.FC<Props> = ({ title, inputTime, displayTime, onchange }: Prop
           <form className={classes.container} noValidate>
             <TextField
               id="time"
-              label="予想時刻"
+              label="予想出現時刻"
               type="time"
               value={displayTime}
               disabled={true}
