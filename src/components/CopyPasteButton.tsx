@@ -8,10 +8,9 @@ type Props = {
 }
 
 export default function CopyPasteButton({ minutes }: Props) {
-  let text = `ジェム鉱脈の予想出現時刻です\n`;
-  waves.map(wave => {
-    text += `${wave.title}: ${min2str(minutes + wave.dmin)}\n`
-  })
+  const text = `ジェム鉱脈の予想出現時刻です\n` + waves.map(wave => {
+    return `${wave.title}: ${min2str(minutes + wave.dmin)}\n`
+  }).join('')
 
   return (
     <CopyToClipBoard text={text}>
