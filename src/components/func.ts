@@ -1,4 +1,4 @@
-export const waves = [
+export const new_waves = [
   { index: 0, title: "Lv1 wave1", dmin: 0 },
   { index: 1, title: "Lv1 wave2", dmin: 4 },
   { index: 2, title: "Lv2 wave1", dmin: 8 },
@@ -13,7 +13,7 @@ export const waves = [
   { index: 11, title: "Lv5 wave2", dmin: 114+69 },
 ]
 
-export const waves_old = [
+export const old_waves = [
   { index: 0, title: "Lv1 wave1", dmin: 0 },
   { index: 1, title: "Lv1 wave2", dmin: 4 },
   { index: 2, title: "Lv2 wave1", dmin: 8 },

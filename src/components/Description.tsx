@@ -70,7 +70,7 @@ export default function Discription() {
               <TableCell component="th" scope="row">
                 Lv. 4
               </TableCell>
-              <TableCell align="center">3回</TableCell>
+              <TableCell align="center">3回(21/2/10から2回?)</TableCell>
               <TableCell align="center">29分ごと</TableCell>
             </TableRow>
             <TableRow>

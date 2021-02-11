@@ -1,13 +1,20 @@
 import React from "react"
 import Button from '@material-ui/core/Button';
 import CopyToClipBoard from 'react-copy-to-clipboard';
-import { waves, min2str } from './func';
+import { min2str } from './func';
 
-type Props = {
-  minutes: number
+type Wave = {
+  index: number,
+  title: string,
+  dmin: number
 }
 
-export default function CopyPasteButton({ minutes }: Props) {
+type Props = {
+  minutes: number,
+  waves: Wave[]
+}
+
+export default function CopyPasteButton({ minutes, waves }: Props) {
   const text = `ジェム鉱脈の予想出現時刻です\n` + waves.map(wave => {
     return `${wave.title}: ${min2str(minutes + wave.dmin)}\n`
   }).join('')
