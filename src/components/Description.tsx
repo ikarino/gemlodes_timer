@@ -144,7 +144,7 @@ export default function Discription() {
           -- 29分経過
         </li>
         <li>
-          <b>09:54にLv.4のwave 3が出現</b>
+          <b>09:54にLv.4のwave 3が出現（しないっぽい？2021/02/10春節イベントから）</b>
         </li>
         <li className={classes.linone}>
           -- 29分経過
