@@ -56,7 +56,7 @@ export default function Discription() {
               <TableCell component="th" scope="row">
                 Lv. 2
               </TableCell>
-              <TableCell align="center">3回</TableCell>
+              <TableCell align="center">3回(21/2/10から2回?)</TableCell>
               <TableCell align="center">8分ごと</TableCell>
             </TableRow>
             <TableRow>

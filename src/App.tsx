@@ -29,7 +29,7 @@ function App() {
 
   const waves = wave ? new_waves : old_waves;
 
-  const text = wave ? <p>新バージョン</p> : <p>旧バージョン</p>
+  const text = wave ? <p>新バージョン(イベントのみ?)</p> : <p>旧バージョン(KVK)</p>
 
   function setMinutesByWave(wave: number, newWaveMinute: number) {
     setMinutes(newWaveMinute - waves[wave].dmin);
