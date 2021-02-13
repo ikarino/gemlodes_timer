@@ -169,6 +169,9 @@ export default function Discription() {
         出現したジェム鉱脈をギルドメンバーで報告しあうことで、予測精度をあげていきましょう！<br />
         コピペボタンで予測時刻を共有することも可能です！
       </p>
+      <p>
+        Copyright © 2021 怒りの葡萄＆怒りのバナナ All Rights Reserved.
+      </p>
     </Typography>
   </Paper>
 }
